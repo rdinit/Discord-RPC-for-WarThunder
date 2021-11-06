@@ -89,7 +89,7 @@ def set_status():
 wt = wt_api.WT_api()
 
 last_state = ['WT_NOT_RUNNING', 0]
-
+last_dmg = 0
 need_update = True
 active = True
 while active:
